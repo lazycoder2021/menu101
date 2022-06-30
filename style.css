@@ -1,0 +1,49 @@
+﻿*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family: 'Segoe UI';
+    overflow:hidden;
+}
+
+
+.navbar{
+    height:70px;
+    width:100%; 
+    background:black;
+    color:white;
+    display:flex;
+    justify-content:space-between; 
+    align-items:center;
+}
+
+.navbar .logo{
+    margin-left:20px;
+}
+
+.navbar .menu{
+    margin-right:20px;
+    cursor:pointer;
+    z-index:100;
+}
+
+.menu-items{
+    width:100%; 
+    //border:2px solid red;
+    position:relative;
+    height:100vh;
+}
+
+.menu-item {
+    width: 400px;
+    border: 1px solid black;
+    height: 100vh;
+    position:absolute;
+    right:0px;
+    top:0px;
+    transition:0.4s;
+}
+
+.hide{
+    display:none;
+}

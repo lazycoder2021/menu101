@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!--header start-->
+    <div class="navbar">
+        <div class="logo">LOGO</div>
+        <div class="menu">MENU</div>
+    </div>
+    <div class="menu-items">
+        <div class="menu-item hide">
+            <p>Home</p>
+            <p>About</p>
+            <p>Services</p>
+            <p>Contact</p>
+        </div>
+    </div>
+    <!--header end-->
+
+    <script>
+        document.querySelector('.menu').addEventListener('click', function () {
+            document.querySelector('.menu-item').classList.toggle('hide');
+        })
+
+    </script>
+</body>
+</html>
